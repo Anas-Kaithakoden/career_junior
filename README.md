@@ -18,3 +18,27 @@ I wish to learn
 This will be done with exercises instead of blind following theories , also no copy paste allowed, but can look up with LLMs, Will be doing projects too
 
 Before Note: i can understand python, but most code is vibecoded I know git and github, have pulled and pushed but don’t how to work in a team repo, only knows alone I know how to pull docker images and deploy, i have deployed n8n as self hosted I have used REST APIs in n8n, like get and post I know little sql queries, knows very little javascript, i had done something with FastAPI but it was vibe coded
+
+## Phase 1 — Professional Python
+Duration: 1-2 weeks
+
+Goal:
+Write Python without AI helping every line.
+Learn: 
+* Functions
+* Classes
+* OOP
+* Modules
+* Packages
+* Virtual Environments
+* Error Handling
+* List Comprehensions
+* Generators
+* Decorators (basic)
+* Type Hints
+
+### Module 1: Functions                                                         [18-06-26 -- 18-06-26]
+Learn:
+Parameters, Return values , Scope, Default arguments, *args, **kwargs
+
+
