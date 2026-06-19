@@ -41,4 +41,8 @@ Learn:
 Learn:
 Parameters, Return values , Scope, Default arguments, *args, **kwargs
 
+### Module 2 — Error Handling                                                   [19-06-26 -- 19-06-26]
+Learn:
+try,except,else,finally,raising exceptions
+
 
