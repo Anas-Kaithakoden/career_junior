@@ -45,4 +45,6 @@ Parameters, Return values , Scope, Default arguments, *args, **kwargs
 Learn:
 try,except,else,finally,raising exceptions
 
-
+### Module 3: Collections & Comprehensions                                      [20-06-26 -- 20-06-26]
+Learn:
+Lists,Tuples,Dictionaries,Sets,List comprehensions,Dictionary comprehensions
