@@ -26,13 +26,11 @@ Goal:
 Write Python without AI helping every line.
 Learn: 
 * Functions
-* Classes
-* OOP
-* Modules
-* Packages
-* Virtual Environments
 * Error Handling
-* List Comprehensions
+* Collections & Comprehension
+* Classes & OOP 
+* Modules & Packages
+* Virtual Environments
 * Generators
 * Decorators (basic)
 * Type Hints
@@ -48,3 +46,6 @@ try,except,else,finally,raising exceptions
 ### Module 3: Collections & Comprehensions                                      [20-06-26 -- 20-06-26]
 Learn:
 Lists,Tuples,Dictionaries,Sets,List comprehensions,Dictionary comprehensions
+
+### Module 4: Classes & OOP                                                     [21-06-26 -- 21-06-26]
+Learn:Classes,Objects,Constructors,Methods,Attributes,Encapsulation,Inheritance,Polymorphism 
