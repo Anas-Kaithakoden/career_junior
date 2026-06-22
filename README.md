@@ -30,10 +30,11 @@ Learn:
 * Collections & Comprehension
 * Classes & OOP 
 * Modules & Packages
-* Virtual Environments
+* File Handling & JSON  
 * Generators
 * Decorators (basic)
 * Type Hints
+* Virtual Environments
 
 ### Module 1: Functions                                                         [18-06-26 -- 18-06-26]
 Learn:
@@ -49,3 +50,12 @@ Lists,Tuples,Dictionaries,Sets,List comprehensions,Dictionary comprehensions
 
 ### Module 4: Classes & OOP                                                     [21-06-26 -- 21-06-26]
 Learn:Classes,Objects,Constructors,Methods,Attributes,Encapsulation,Inheritance,Polymorphism 
+
+### Module 5 — Modules & Packages                                               [22-06-26 -- 22-06-26]
+Learn:Importing,Creating modules,Creating packages,__init__.py
+
+### Module 6 — File Handling & JSON                                             [22-06-26 -- 22-06-26]
+Learn:Reading files,Writing files,JSON loading,JSON saving
+
+### Module 7: Type Hints                                                        [22-06-26 -- 22-06-26]
+Learn:Function annotations,typing module,Optional,List,Dict
