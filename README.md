@@ -31,9 +31,9 @@ Learn:
 * Classes & OOP 
 * Modules & Packages
 * File Handling & JSON  
+* Type Hints
 * Generators
 * Decorators (basic)
-* Type Hints
 * Virtual Environments
 
 ### Module 1: Functions                                                         [18-06-26 -- 18-06-26]
@@ -59,3 +59,6 @@ Learn:Reading files,Writing files,JSON loading,JSON saving
 
 ### Module 7: Type Hints                                                        [22-06-26 -- 22-06-26]
 Learn:Function annotations,typing module,Optional,List,Dict
+
+### Module 8 — Generators                                                       [22-06-26 -- 22-06-26]
+Learn:yield,Generator functions,Generator expressions
