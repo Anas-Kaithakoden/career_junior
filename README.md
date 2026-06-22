@@ -19,7 +19,7 @@ This will be done with exercises instead of blind following theories , also no c
 
 Before Note: i can understand python, but most code is vibecoded I know git and github, have pulled and pushed but don’t how to work in a team repo, only knows alone I know how to pull docker images and deploy, i have deployed n8n as self hosted I have used REST APIs in n8n, like get and post I know little sql queries, knows very little javascript, i had done something with FastAPI but it was vibe coded
 
-## Phase 1 — Professional Python
+## Phase 1 — Professional Python                                               [18-06-26 -- 22-06-26]
 Duration: 1-2 weeks
 
 Goal:
@@ -62,3 +62,9 @@ Learn:Function annotations,typing module,Optional,List,Dict
 
 ### Module 8 — Generators                                                       [22-06-26 -- 22-06-26]
 Learn:yield,Generator functions,Generator expressions
+
+### Module 9 — Decorators                                                       [22-06-26 -- 22-06-26]
+Learn:Functions as objects,Wrapper functions,Basic decorators
+
+### Module 10 — Virtual Environments                                            [22-06-26 -- 22-06-26]
+Learn:venv,pip,requirements.txt
