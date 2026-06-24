@@ -85,3 +85,6 @@ Learn: Rows & Columns, Tables, IDs, Relationships
 
 ### Module 2: Install PostgreSQL                                                 [24-06-26 -- 24-06-26]
 SQL Shell (psql), pgAdmin
+
+### Module 3 — CRUD Operations                                                   [24-06-26 -- 25-06-26]
+Create, Read, Update, Delete, WHERE

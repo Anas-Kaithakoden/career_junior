@@ -5,3 +5,24 @@ Important Terminal Commands
 - List tables: \dt
 - Exit psql: \q
 
+
+CRUD Operations
+
+- Create our own database: CREATE DATABASE blog_db;
+- Create a users table:
+    CREATE TABLE users (
+        id SERIAL PRIMARY KEY,
+        name VARCHAR(100),
+        email VARCHAR(255)
+    );
+- Filter with WHERE: 
+    SELECT * FROM users
+    WHERE name = 'Anas';
+- UPDATE:
+    UPDATE users
+    SET email = 'anaskk@gmail.com'
+    WHERE id = 1;
+- DELETE:
+    DELETE FROM users
+    WHERE id = 3;
+
