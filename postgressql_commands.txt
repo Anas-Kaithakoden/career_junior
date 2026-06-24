@@ -1,0 +1,7 @@
+Important Terminal Commands
+
+- List databases: \l
+- Connect to a database: \c database_name
+- List tables: \dt
+- Exit psql: \q
+

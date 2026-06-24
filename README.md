@@ -68,3 +68,20 @@ Learn:Functions as objects,Wrapper functions,Basic decorators
 
 ### Module 10 — Virtual Environments                                            [22-06-26 -- 22-06-26]
 Learn:venv,pip,requirements.txt
+
+
+## Phase 2 — SQL & PostgreSQL                                                   [24-06-26]
+Duration: 1 week
+
+Goal:
+Learn: 
+* Database Fundamentals
+* Install PostgreSQL
+* Basic SQL
+* Preview (Next)
+
+### Module 1: Database Fundamentals                                              [24-06-26 -- 24-06-26]
+Learn: Rows & Columns, Tables, IDs, Relationships
+
+### Module 2: Install PostgreSQL                                                 [24-06-26 -- 24-06-26]
+SQL Shell (psql), pgAdmin
