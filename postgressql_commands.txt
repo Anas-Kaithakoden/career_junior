@@ -15,6 +15,9 @@ CRUD Operations
         name VARCHAR(100),
         email VARCHAR(255)
     );
+- INSERT:
+    INSERT INTO posts(title, content, user_id)
+    VALUES ('Learning SQL', 'SQL is awesome', 1);
 - Filter with WHERE: 
     SELECT * FROM users
     WHERE name = 'Anas';
@@ -25,4 +28,9 @@ CRUD Operations
 - DELETE:
     DELETE FROM users
     WHERE id = 3;
+- DROP:
+    DROP users;
+- ALTER:
+    ALTER TABLE old_table_name
+    RENAME TO new_table_name;
 

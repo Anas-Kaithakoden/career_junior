@@ -88,3 +88,6 @@ SQL Shell (psql), pgAdmin
 
 ### Module 3 — CRUD Operations                                                   [24-06-26 -- 25-06-26]
 Create, Read, Update, Delete, WHERE
+
+### Module 4 — Primary Keys & Foreign Keys                                       [26-06-26 -- 26-06-26]
+Foreign Key Constraint, Relationship Types
