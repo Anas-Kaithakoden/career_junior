@@ -57,3 +57,82 @@ Filtering Data
 
 
 Sorting & Limiting     
+- ORDER BY
+    SELECT *
+    FROM users
+    ORDER BY age ASC;
+- LIMIT
+    SELECT *
+    FROM users
+    LIMIT 5;
+- OFFSET 
+    SELECT *
+    FROM users
+    ORDER BY id
+    LIMIT 5
+    OFFSET 5; (6-10)
+
+
+ Joins   
+- INNER JOIN, LEFT JOIN
+    SELECT users.name,
+        posts.title
+    FROM users
+    INNER JOIN posts
+    ON users.id = posts.user_id;
+
+    SELECT
+    p.title,
+    u.name AS author
+    FROM posts p
+    INNER JOIN users u
+    ON p.user_id = u.id;
+
+
+
+Aggregation
+- COUNT,SUM,AVG,MIN,MAX
+    SELECT SUM(salary)
+    FROM users;
+- GROUP BY
+    SELECT age,
+    COUNT(*)
+    FROM users
+    GROUP BY age;
+
+    SELECT u.name,
+    COUNT(p.id) AS total_posts
+    FROM users u
+    LEFT JOIN posts p
+    ON u.id = p.user_id
+    GROUP BY u.id, u.name;
+
+- HAVING
+    SELECT user_id,
+        COUNT(*)
+    FROM posts
+    GROUP BY user_id
+    HAVING COUNT(*) > 1;
+
+
+Constraints, Indexes & Transactions   
+- NOT NULL,UNIQUE,DEFAULT,CHECK
+    CREATE TABLE users (
+        age INTEGER CHECK (age >= 18)
+    );
+- Indexes
+    CREATE INDEX idx_users_email
+    ON users(email);
+- Transactions
+
+
+Example
+    SELECT u.name,
+        COUNT(p.id) AS Total
+    FROM users u
+    LEFT JOIN posts p
+    ON u.id = p.user_id
+    GROUP BY u.name, u.id
+    HAVING COUNT(p.id) > 0
+    ORDER BY Total DESC
+    LIMIT 5;

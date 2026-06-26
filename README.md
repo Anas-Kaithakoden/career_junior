@@ -98,4 +98,16 @@ Create, Read, Update, Delete
 Foreign Key Constraint, Relationship Types
 
 ### Module 5 — Filtering Data                                                    [26-06-26 -- 26-06-26]
-WHERE
+WHERE, AND, OR, IN, BETWEEN, LIKE, IS NULL
+
+### Module 6 — Sorting & Limiting                                                [26-06-26 -- 26-06-26]
+ORDER BY, LIMIT, OFFSET                  
+
+### Module 7 — JOIN                                                              [26-06-26 -- 26-06-26]
+INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN
+
+### Module 8 — Aggregation                                                       [26-06-26 -- 26-06-26]
+COUNT,SUM,AVG,MIN,MAX,GROUP BY,HAVING
+
+### Module 9 — Constraints, Indexes & Transactions                               [26-06-26 -- 26-06-26]
+NOT NULL,UNIQUE,CHECK,DEFAULT,FOREIGN KEY,Indexes,BEGIN,COMMIT,ROLLBACK
