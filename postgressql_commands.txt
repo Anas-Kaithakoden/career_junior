@@ -18,9 +18,6 @@ CRUD Operations
 - INSERT:
     INSERT INTO posts(title, content, user_id)
     VALUES ('Learning SQL', 'SQL is awesome', 1);
-- Filter with WHERE: 
-    SELECT * FROM users
-    WHERE name = 'Anas';
 - UPDATE:
     UPDATE users
     SET email = 'anaskk@gmail.com'
@@ -34,3 +31,29 @@ CRUD Operations
     ALTER TABLE old_table_name
     RENAME TO new_table_name;
 
+
+Filtering Data  
+
+- Filter with WHERE: 
+    SELECT * FROM users
+    WHERE name = 'Anas';
+- AND, OR
+- IN
+    SELECT *
+    FROM users
+    WHERE id IN (1,2,3);
+- BETWEEN
+    SELECT *
+    FROM users
+    WHERE age BETWEEN 18 AND 25;
+-  LIKE,ILIKE(case insensitive)
+    SELECT *
+    FROM users
+    WHERE name LIKE 'A%';
+-  IS NULL, IS NOT NULL
+    SELECT *
+    FROM users
+    WHERE email IS NULL;
+
+
+Sorting & Limiting     

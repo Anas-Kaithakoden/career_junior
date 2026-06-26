@@ -77,8 +77,13 @@ Goal:
 Learn: 
 * Database Fundamentals
 * Install PostgreSQL
-* Basic SQL
-* Preview (Next)
+* CRUD Operations
+* Primary Keys & Foreign Keys 
+* Filtering Data 
+* Sorting & Limiting
+* JOINs
+* Aggregation
+* Professional Database Concepts
 
 ### Module 1: Database Fundamentals                                              [24-06-26 -- 24-06-26]
 Learn: Rows & Columns, Tables, IDs, Relationships
@@ -87,7 +92,10 @@ Learn: Rows & Columns, Tables, IDs, Relationships
 SQL Shell (psql), pgAdmin
 
 ### Module 3 — CRUD Operations                                                   [24-06-26 -- 25-06-26]
-Create, Read, Update, Delete, WHERE
+Create, Read, Update, Delete
 
 ### Module 4 — Primary Keys & Foreign Keys                                       [26-06-26 -- 26-06-26]
 Foreign Key Constraint, Relationship Types
+
+### Module 5 — Filtering Data                                                    [26-06-26 -- 26-06-26]
+WHERE
