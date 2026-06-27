@@ -2,9 +2,10 @@
 So i will be recording my python junior developer journey here 
 I wish to learn
 - Python
+- PostgreSQL/SQL
+- SQLAlchemy + Alembic
 - FastAPI
 - REST API
-- PostgreSQL/SQL
 - Docker
 - Git & Github
 - AWS basics
@@ -17,7 +18,7 @@ I wish to learn
 
 This will be done with exercises instead of blind following theories , also no copy paste allowed, but can look up with LLMs, Will be doing projects too
 
-Before Note: i can understand python, but most code is vibecoded I know git and github, have pulled and pushed but don’t how to work in a team repo, only knows alone I know how to pull docker images and deploy, i have deployed n8n as self hosted I have used REST APIs in n8n, like get and post I know little sql queries, knows very little javascript, i had done something with FastAPI but it was vibe coded
+Before Note: i can understand python, but most code is vibecoded I know git and github, have pulled and pushed but don’t how to work in a team repo,I know how to pull docker images and deploy, i have deployed n8n as self hosted I have used REST APIs in n8n, like get and post I know little sql queries, knows very little javascript, i had done something with FastAPI but it was vibe coded
 
 ## Phase 1 — Professional Python                                               [18-06-26 -- 22-06-26]
 Duration: 1-2 weeks
@@ -70,7 +71,9 @@ Learn:Functions as objects,Wrapper functions,Basic decorators
 Learn:venv,pip,requirements.txt
 
 
-## Phase 2 — SQL & PostgreSQL                                                   [24-06-26]
+
+
+## Phase 2 — SQL & PostgreSQL                                                   [24-06-26 -- 26-06-26]
 Duration: 1 week
 
 Goal:
@@ -111,3 +114,29 @@ COUNT,SUM,AVG,MIN,MAX,GROUP BY,HAVING
 
 ### Module 9 — Constraints, Indexes & Transactions                               [26-06-26 -- 26-06-26]
 NOT NULL,UNIQUE,CHECK,DEFAULT,FOREIGN KEY,Indexes,BEGIN,COMMIT,ROLLBACK
+
+
+
+
+
+## Phase 2 —  SQLAlchemy + Alembic                                               [26-06-26]
+Duration: 1 week
+
+Goal:
+Learn:
+* What is an ORM?
+* Installing & Configuring SQLAlchemy
+* Creating Models
+* Relationships
+* CRUD Operations
+* Filtering, Sorting & Querying
+* Session Management
+* Loading Related Data
+* Professional SQLAlchemy Concepts
+* Alembic
+
+### Module 1: What is an ORM                                              [27-06-26 -- 27-06-26]
+ORM 
+
+### Module 2 — SQLAlchemy Architecture                                    [27-06-26 -- 27-06-26]
+Installing SQLAlchemy,Engine,Database URL,Base class,Sessions,How SQLAlchemy connects to PostgreSQL
