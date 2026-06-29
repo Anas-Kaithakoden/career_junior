@@ -86,7 +86,7 @@ Learn:
 * Sorting & Limiting
 * JOINs
 * Aggregation
-* Professional Database Concepts
+* Constraints, Indexes & Transactions
 
 ### Module 1: Database Fundamentals                                              [24-06-26 -- 24-06-26]
 Learn: Rows & Columns, Tables, IDs, Relationships
@@ -106,7 +106,7 @@ WHERE, AND, OR, IN, BETWEEN, LIKE, IS NULL
 ### Module 6 — Sorting & Limiting                                                [26-06-26 -- 26-06-26]
 ORDER BY, LIMIT, OFFSET                  
 
-### Module 7 — JOIN                                                              [26-06-26 -- 26-06-26]
+### Module 7 — JOINs                                                              [26-06-26 -- 26-06-26]
 INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN
 
 ### Module 8 — Aggregation                                                       [26-06-26 -- 26-06-26]
@@ -140,3 +140,9 @@ ORM
 
 ### Module 2 — SQLAlchemy Architecture                                    [27-06-26 -- 27-06-26]
 Installing SQLAlchemy,Engine,Database URL,Base class,Sessions,How SQLAlchemy connects to PostgreSQL
+
+### Module 3 — Models                                                     [28-06-26 -- 28-06-26]
+Models,__tablename__,Mapped,mapped_column(),Column types,Primary Keys,Foreign Keys,Constraints,How a Python class becomes a PostgreSQL table
+
+### Module 4 — Relationships                                              [29-06-26 -- 29-06-26]
+Why relationship() exists,One-to-Many,back_populates,One-to-One,Many-to-Many
