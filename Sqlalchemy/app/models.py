@@ -44,7 +44,7 @@ class Post(Base):
 
 
 
-# *Exercises
+# *Exercise
 # 1:
 # CREATE TABLE comments (
 #     id SERIAL PRIMARY KEY,
