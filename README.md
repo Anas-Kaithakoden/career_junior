@@ -146,3 +146,6 @@ Models,__tablename__,Mapped,mapped_column(),Column types,Primary Keys,Foreign Ke
 
 ### Module 4 — Relationships                                              [29-06-26 -- 29-06-26]
 Why relationship() exists,One-to-Many,back_populates,One-to-One,Many-to-Many
+
+### Module 5 — CRUD with SQLAlchemy                                       [30-06-26 -- 30-06-26]
+Create,Read,Update,Delete
