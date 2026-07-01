@@ -131,7 +131,7 @@ Learn:
 * CRUD Operations
 * Filtering, Sorting & Querying
 * Session Management
-* Loading Related Data
+* Loading Strategies 
 * Professional SQLAlchemy Concepts
 * Alembic
 
@@ -152,3 +152,12 @@ Create,Read,Update,Delete
 
 ### Module 6 — Querying with SQLAlchemy                                   [01-07-26 -- 01-07-26]
 where(),Multiple conditions (AND, OR),order_by(),limit(),offset(),Joins,Aggregation (COUNT, SUM, AVG, ...),group_by(),having()
+
+### Module 7 — Session Management                                          [01-07-26 -- 01-07-26]
+Session lifecycle,commit(),rollback(),flush(),refresh(),expire(),Identity Map
+
+### Module 8 — Loading Strategies                                         [01-07-26 -- 01-07-26]
+Lazy Loading,Eager Loading,joinedload(),selectinload(),The N+1 Query Problem
+
+### Module 9 — Production Best Practices                                  [01-07-26 -- 01-07-26]
+How SQLAlchemy is organized in real FastAPI projects,Where engine, SessionLocal, and models live,Common beginner mistakes,Basic Repository Pattern (only what juniors should know),Performance tips,Clean project structure,What interviewers look for in junior backend candidates.
