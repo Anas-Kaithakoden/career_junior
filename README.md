@@ -149,3 +149,6 @@ Why relationship() exists,One-to-Many,back_populates,One-to-One,Many-to-Many
 
 ### Module 5 — CRUD with SQLAlchemy                                       [30-06-26 -- 30-06-26]
 Create,Read,Update,Delete
+
+### Module 6 — Querying with SQLAlchemy                                   [01-07-26 -- 01-07-26]
+where(),Multiple conditions (AND, OR),order_by(),limit(),offset(),Joins,Aggregation (COUNT, SUM, AVG, ...),group_by(),having()
