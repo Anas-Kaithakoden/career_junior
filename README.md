@@ -119,7 +119,7 @@ NOT NULL,UNIQUE,CHECK,DEFAULT,FOREIGN KEY,Indexes,BEGIN,COMMIT,ROLLBACK
 
 
 
-## Phase 2 —  SQLAlchemy + Alembic                                               [26-06-26]
+## Phase 2 —  SQLAlchemy + Alembic                                               [26-06-26 -- 02-07-26]
 Duration: 1 week
 
 Goal:
@@ -132,7 +132,7 @@ Learn:
 * Filtering, Sorting & Querying
 * Session Management
 * Loading Strategies 
-* Professional SQLAlchemy Concepts
+* SQLAlchemy Production Best Practices 
 * Alembic
 
 ### Module 1: What is an ORM                                              [27-06-26 -- 27-06-26]
@@ -161,3 +161,18 @@ Lazy Loading,Eager Loading,joinedload(),selectinload(),The N+1 Query Problem
 
 ### Module 9 — Production Best Practices                                  [01-07-26 -- 01-07-26]
 How SQLAlchemy is organized in real FastAPI projects,Where engine, SessionLocal, and models live,Common beginner mistakes,Basic Repository Pattern (only what juniors should know),Performance tips,Clean project structure,What interviewers look for in junior backend candidates.
+
+
+### Alembic 
+#### Module 1: Why migrations exist (30–45 minutes)                        [01-07-26 -- 01-07-26]
+
+#### Module 2: Initialize Alembic in our project                           [02-07-26 -- 02-07-26]
+Install Alembic,Initialize Alembic,Project structure,alembic.ini,env.py,Connecting Alembic to SQLAlchemy
+
+#### Module 3: Create, inspect, upgrade, and downgrade migrations          [02-07-26 -- 02-07-26]
+revision --autogenerate,Migration files,upgrade,downgrade,alembic_version,Real development workflow
+
+#### Module 4: Simulate real development                                   [02-07-26 -- 02-07-26]
+Adding a column,Renaming a column,Creating a new table,Editing relationships,What Alembic can and cannot detect automatically
+
+#### Module 5: Best practices and common mistakes                          [02-07-26 -- 02-07-26]

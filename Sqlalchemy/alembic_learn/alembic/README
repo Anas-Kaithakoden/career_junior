@@ -1,0 +1,34 @@
+Generic single-database configuration.
+
+| Command                                    | Purpose                            |
+| ------------------------------------------ | ---------------------------------- |
+| `alembic revision --autogenerate -m "..."` | Generate a migration               |
+| `alembic upgrade head`                     | Apply all pending migrations       |
+| `alembic downgrade -1`                     | Undo the last migration            |
+| `alembic current`                          | Show the current database revision |
+| `alembic history`                          | Show migration history             |
+
+
+Developer
+
+↓
+
+Edit models
+
+↓
+
+Generate migration
+
+↓
+
+Commit code + migration
+
+↓
+
+Deploy application
+
+↓
+
+Run:
+
+alembic upgrade head
