@@ -6,19 +6,27 @@ I wish to learn
 - SQLAlchemy + Alembic
 - FastAPI
 - REST API
-- Docker
-- Git & Github
-- AWS basics
-- Github Actions
 - JWT Authentication
 - Testing
+- Git & Github
+- Docker
+- AWS basics
+- Github Actions
 - Javascript
+- React
+- Redis
+- MongoDB
+- Pinecone
+- LangChain
 - NodeJS
 - Rust
 
 This will be done with exercises instead of blind following theories , also no copy paste allowed, but can look up with LLMs, Will be doing projects too
 
 Before Note: i can understand python, but most code is vibecoded I know git and github, have pulled and pushed but don’t how to work in a team repo,I know how to pull docker images and deploy, i have deployed n8n as self hosted I have used REST APIs in n8n, like get and post I know little sql queries, knows very little javascript, i had done something with FastAPI but it was vibe coded
+
+__________________________________________________________________________________________________________________________________
+
 
 ## Phase 1 — Professional Python                                               [18-06-26 -- 22-06-26]
 Duration: 1-2 weeks
@@ -71,6 +79,7 @@ Learn:Functions as objects,Wrapper functions,Basic decorators
 Learn:venv,pip,requirements.txt
 
 
+__________________________________________________________________________________________________________________________________
 
 
 ## Phase 2 — SQL & PostgreSQL                                                   [24-06-26 -- 26-06-26]
@@ -116,10 +125,10 @@ COUNT,SUM,AVG,MIN,MAX,GROUP BY,HAVING
 NOT NULL,UNIQUE,CHECK,DEFAULT,FOREIGN KEY,Indexes,BEGIN,COMMIT,ROLLBACK
 
 
+__________________________________________________________________________________________________________________________________
 
 
-
-## Phase 2 —  SQLAlchemy + Alembic                                               [26-06-26 -- 02-07-26]
+## Phase 3 —  SQLAlchemy + Alembic                                               [26-06-26 -- 02-07-26]
 Duration: 1 week
 
 Goal:
@@ -162,6 +171,7 @@ Lazy Loading,Eager Loading,joinedload(),selectinload(),The N+1 Query Problem
 ### Module 9 — Production Best Practices                                  [01-07-26 -- 01-07-26]
 How SQLAlchemy is organized in real FastAPI projects,Where engine, SessionLocal, and models live,Common beginner mistakes,Basic Repository Pattern (only what juniors should know),Performance tips,Clean project structure,What interviewers look for in junior backend candidates.
 
+---------------------------------------------------------------------------------------------------------------------------
 
 ### Alembic 
 #### Module 1: Why migrations exist (30–45 minutes)                        [01-07-26 -- 01-07-26]
@@ -176,3 +186,29 @@ revision --autogenerate,Migration files,upgrade,downgrade,alembic_version,Real d
 Adding a column,Renaming a column,Creating a new table,Editing relationships,What Alembic can and cannot detect automatically
 
 #### Module 5: Best practices and common mistakes                          [02-07-26 -- 02-07-26]
+
+
+__________________________________________________________________________________________________________________________________
+
+
+## Phase 4 —  FastAPI Fundamentals                                         [07-07-26]
+Duration: 2 weeks
+
+Goal:
+Learn:
+* Introduction to FastAPI
+* Routing & Path Operations
+* Request Bodies & Pydantic
+* Dependency Injection
+* Error Handling
+* Project Structure
+* CRUD APIs
+* Pagination, Filtering & Searching
+* Production Best Practices & Interview Preparation
+
+### Module 1: Introduction to FastAPI                                      [07-07-26 -- 07-07-26]
+Why web frameworks exist,Client vs Server,HTTP fundamentals,Request and Response,REST APIs (Introduction),JSON,Installing FastAPI,Uvicorn,First FastAPI application,Swagger UI,ReDoc,HTTP request lifecycle
+
+### Module 2: Routing & Path Operations                                    [07-07-26 -- 07-07-26]
+Why routing exists,What is a URL?,What is a Route?,Route decorators,HTTP Methods,Path Parameters,Query Parameters,Status Codes,How FastAPI matches requests internally,Production REST naming conventions
+
