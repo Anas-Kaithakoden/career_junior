@@ -68,8 +68,6 @@ def get_user(id: int):
 
 # Exercise:
 
-
-
 class PostCreateEX(BaseModel):
     title: str = Field(min_length=3, max_length=100)
     content: str = Field(min_length=10)
@@ -84,3 +82,19 @@ def create_posts(post: PostCreateEX):
         "published" : post.published,
         "message": "Hi"
     }
+
+
+# Depends
+
+# def get_db():
+#     with SessionLocal() as session:
+#         yield session
+
+# def get_db():
+#     db = SessionLocal()
+
+#     try:
+#         yield db
+
+#     finally:
+#         db.close()

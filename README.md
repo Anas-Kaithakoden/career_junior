@@ -214,3 +214,6 @@ Why routing exists,What is a URL?,What is a Route?,Route decorators,HTTP Methods
 
 ### Module 3 — Request Bodies & Pydantic Models                            [09-07-26 -- 09-07-26]
 Why request bodies exist,What is a request body?,Why dictionaries aren't enough,Introduction to Pydantic,Creating Pydantic models,Automatic validation,Serialization vs deserialization,Response models,Validation errors (422)
+
+### Module 4 — Dependency Injection                                        [09-07-26 -- 09-07-26]
+What problem dependency injection solves,Why global database sessions are dangerous,What is a dependency?,Depends(),Database session lifecycle,Generator dependencies (yield),Reusing dependencies,Connecting FastAPI to your existing SQLAlchemy setup
