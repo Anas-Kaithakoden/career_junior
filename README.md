@@ -209,6 +209,8 @@ Learn:
 ### Module 1: Introduction to FastAPI                                      [07-07-26 -- 07-07-26]
 Why web frameworks exist,Client vs Server,HTTP fundamentals,Request and Response,REST APIs (Introduction),JSON,Installing FastAPI,Uvicorn,First FastAPI application,Swagger UI,ReDoc,HTTP request lifecycle
 
-### Module 2: Routing & Path Operations                                    [07-07-26 -- 07-07-26]
+### Module 2: Routing & Path Operations                                    [08-07-26 -- 08-07-26]
 Why routing exists,What is a URL?,What is a Route?,Route decorators,HTTP Methods,Path Parameters,Query Parameters,Status Codes,How FastAPI matches requests internally,Production REST naming conventions
 
+### Module 3 — Request Bodies & Pydantic Models                            [09-07-26 -- 09-07-26]
+Why request bodies exist,What is a request body?,Why dictionaries aren't enough,Introduction to Pydantic,Creating Pydantic models,Automatic validation,Serialization vs deserialization,Response models,Validation errors (422)
