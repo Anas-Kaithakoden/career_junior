@@ -217,3 +217,6 @@ Why request bodies exist,What is a request body?,Why dictionaries aren't enough,
 
 ### Module 4 — Dependency Injection                                        [09-07-26 -- 09-07-26]
 What problem dependency injection solves,Why global database sessions are dangerous,What is a dependency?,Depends(),Database session lifecycle,Generator dependencies (yield),Reusing dependencies,Connecting FastAPI to your existing SQLAlchemy setup
+
+### Module 5: Error Handling                                               [10-07-26 -- 10-07-26]
+Why API error handling is different from Python exceptions,HTTP errors,HTTPException,Status codes,Returning meaningful error messages,The request lifecycle when an error occurs,Validation errors (422),Custom exception handlers,Global error handling

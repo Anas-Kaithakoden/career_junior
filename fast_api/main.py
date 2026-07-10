@@ -98,3 +98,22 @@ def create_posts(post: PostCreateEX):
 
 #     finally:
 #         db.close()
+
+
+# Error handling
+from fastapi import HTTPException
+
+@app.get("/posts/{post_id}")
+def get_post(post_id: int):
+
+    if post_id != 1:
+        raise HTTPException(
+            status_code=404,
+            detail="Post not found"
+        )
+
+    return {"id": 1}
+
+@app.exception_handler(ValueError)
+def handle_value_error(request, exc):
+    ...
