@@ -201,10 +201,8 @@ Learn:
 * Request Bodies & Pydantic
 * Dependency Injection
 * Error Handling
-* Project Structure
-* CRUD APIs
+* Project Structure - add endpoints
 * Pagination, Filtering & Searching
-* Production Best Practices & Interview Preparation
 
 ### Module 1: Introduction to FastAPI                                      [07-07-26 -- 07-07-26]
 Why web frameworks exist,Client vs Server,HTTP fundamentals,Request and Response,REST APIs (Introduction),JSON,Installing FastAPI,Uvicorn,First FastAPI application,Swagger UI,ReDoc,HTTP request lifecycle
@@ -220,3 +218,6 @@ What problem dependency injection solves,Why global database sessions are danger
 
 ### Module 5: Error Handling                                               [10-07-26 -- 10-07-26]
 Why API error handling is different from Python exceptions,HTTP errors,HTTPException,Status codes,Returning meaningful error messages,The request lifecycle when an error occurs,Validation errors (422),Custom exception handlers,Global error handling
+
+### Module 6 — Project Structure - add endpoints                           [11-07-26 -- 12-07-26]
+Why project structure matters,Separating routers, schemas, models, and database code,Creating routers,Including routers in main.py,Configuration,Environment variables,Refactoring your Blog CLI project into a production-style FastAPI project
