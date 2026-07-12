@@ -191,8 +191,8 @@ Adding a column,Renaming a column,Creating a new table,Editing relationships,Wha
 __________________________________________________________________________________________________________________________________
 
 
-## Phase 4 —  FastAPI Fundamentals                                         [07-07-26]
-Duration: 2 weeks
+## Phase 4 —  FastAPI Fundamentals and REST APIs                                        [07-07-26 -- 12-07-26]
+Duration: 1 week
 
 Goal:
 Learn:
@@ -201,8 +201,8 @@ Learn:
 * Request Bodies & Pydantic
 * Dependency Injection
 * Error Handling
-* Project Structure - add endpoints
-* Pagination, Filtering & Searching
+* Project Structure - add endpoints, Pagination, Filtering & Searching
+
 
 ### Module 1: Introduction to FastAPI                                      [07-07-26 -- 07-07-26]
 Why web frameworks exist,Client vs Server,HTTP fundamentals,Request and Response,REST APIs (Introduction),JSON,Installing FastAPI,Uvicorn,First FastAPI application,Swagger UI,ReDoc,HTTP request lifecycle
@@ -220,4 +220,4 @@ What problem dependency injection solves,Why global database sessions are danger
 Why API error handling is different from Python exceptions,HTTP errors,HTTPException,Status codes,Returning meaningful error messages,The request lifecycle when an error occurs,Validation errors (422),Custom exception handlers,Global error handling
 
 ### Module 6 — Project Structure - add endpoints                           [11-07-26 -- 12-07-26]
-Why project structure matters,Separating routers, schemas, models, and database code,Creating routers,Including routers in main.py,Configuration,Environment variables,Refactoring your Blog CLI project into a production-style FastAPI project
+Why project structure matters,Separating routers, schemas, models, and database code,Creating routers,Including routers in main.py,Configuration,Environment variables,Refactoring your Blog CLI project into a production-style FastAPI project, Pagination, Filtering & Searching
