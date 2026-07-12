@@ -221,3 +221,23 @@ Why API error handling is different from Python exceptions,HTTP errors,HTTPExcep
 
 ### Module 6 — Project Structure - add endpoints                           [11-07-26 -- 12-07-26]
 Why project structure matters,Separating routers, schemas, models, and database code,Creating routers,Including routers in main.py,Configuration,Environment variables,Refactoring your Blog CLI project into a production-style FastAPI project, Pagination, Filtering & Searching
+
+
+__________________________________________________________________________________________________________________________________
+
+
+## Phase 5 —  JWT Authentication                                            [12-07-26]
+Duration: 1 week
+
+Goal:
+Learn:
+* Why Authentication Exists
+* Password Security
+* JWT
+* Implement JWT Authentication
+* Protecting Endpoints
+* Authorization
+
+
+### Module 1: Why Authentication Exists                                     [12-07-26 -- 12-07-26]
+Authentication vs Authorization,Why REST APIs need authentication,Stateless vs Stateful authentication,Sessions,Cookies,Tokens,JWT (concept only),Complete request flow between frontend and backend
