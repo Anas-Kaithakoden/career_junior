@@ -241,3 +241,6 @@ Learn:
 
 ### Module 1: Why Authentication Exists                                     [12-07-26 -- 12-07-26]
 Authentication vs Authorization,Why REST APIs need authentication,Stateless vs Stateful authentication,Sessions,Cookies,Tokens,JWT (concept only),Complete request flow between frontend and backend
+
+### Module 2 — Password Security                                            [13-07-26 -- 13-07-26]
+Why passwords should never be stored directly,Hashing,Salt,Why modern password hashing algorithms exist,bcrypt vs pwdlib,Password verification,Designing Register and Login endpoints,What happens internally during registration and login
