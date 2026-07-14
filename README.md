@@ -244,3 +244,6 @@ Authentication vs Authorization,Why REST APIs need authentication,Stateless vs S
 
 ### Module 2 — Password Security                                            [13-07-26 -- 13-07-26]
 Why passwords should never be stored directly,Hashing,Salt,Why modern password hashing algorithms exist,bcrypt vs pwdlib,Password verification,Designing Register and Login endpoints,What happens internally during registration and login
+
+### Module 3 — JWT (JSON Web Token)                                         [14-07-26 -- 14-07-26]
+What JWT is, JWT structure, Header, Payload, Signature, Encoding vs Encryption, Claims, Expiration, Secret Keys
