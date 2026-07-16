@@ -237,6 +237,7 @@ Learn:
 * Implement JWT Authentication
 * Protecting Endpoints
 * Authorization
+* Production Best Practices
 
 
 ### Module 1: Why Authentication Exists                                     [12-07-26 -- 12-07-26]
@@ -247,3 +248,9 @@ Why passwords should never be stored directly,Hashing,Salt,Why modern password h
 
 ### Module 3 — JWT (JSON Web Token)                                         [14-07-26 -- 14-07-26]
 What JWT is, JWT structure, Header, Payload, Signature, Encoding vs Encryption, Claims, Expiration, Secret Keys
+
+### Module 4 — Implementing JWT Authentication                              [15-07-26 -- 16-07-26]
+Install the JWT library (python-jose or PyJWT—I'll explain why we'll choose one).,Create a SECRET_KEY.,Generate a JWT after successful login.,Return it from your /login endpoint.
+
+### Module 5.1 — Protecting Endpoints                                       [16-07-26 -- 17-07-26]
+Learn how FastAPI's OAuth2PasswordBearer works,Use the JWT to identify the current user,OAuth2PasswordBearer,get_current_user(),/login,Protecting your POST /posts, PUT /posts/{id}, and DELETE /posts/{id} endpoints
