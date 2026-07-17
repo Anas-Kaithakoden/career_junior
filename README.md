@@ -12,9 +12,9 @@ I wish to learn
 - Docker
 - AWS basics
 - Github Actions
+- Redis
 - Javascript
 - React
-- Redis
 - MongoDB
 - Pinecone
 - LangChain
@@ -226,7 +226,7 @@ Why project structure matters,Separating routers, schemas, models, and database 
 __________________________________________________________________________________________________________________________________
 
 
-## Phase 5 —  JWT Authentication                                            [12-07-26]
+## Phase 5 —  JWT Authentication                                            [12-07-26 -- 17-07-26]
 Duration: 1 week
 
 Goal:
@@ -237,7 +237,6 @@ Learn:
 * Implement JWT Authentication
 * Protecting Endpoints
 * Authorization
-* Production Best Practices
 
 
 ### Module 1: Why Authentication Exists                                     [12-07-26 -- 12-07-26]
@@ -252,5 +251,8 @@ What JWT is, JWT structure, Header, Payload, Signature, Encoding vs Encryption, 
 ### Module 4 — Implementing JWT Authentication                              [15-07-26 -- 16-07-26]
 Install the JWT library (python-jose or PyJWT—I'll explain why we'll choose one).,Create a SECRET_KEY.,Generate a JWT after successful login.,Return it from your /login endpoint.
 
-### Module 5.1 — Protecting Endpoints                                       [16-07-26 -- 17-07-26]
+### Module 5 — Protecting Endpoints                                         [16-07-26 -- 17-07-26]
 Learn how FastAPI's OAuth2PasswordBearer works,Use the JWT to identify the current user,OAuth2PasswordBearer,get_current_user(),/login,Protecting your POST /posts, PUT /posts/{id}, and DELETE /posts/{id} endpoints
+
+### Module 6 — Authorization                                                [17-07-26 -- 17-07-26]
+Ownership checks (current_user.id == post.user_id),Protect PUT /posts/{id},Protect DELETE /posts/{id},RBAC (Admin vs User),Permission patterns used in production
