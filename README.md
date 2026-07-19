@@ -4,8 +4,7 @@ I wish to learn
 - Python
 - PostgreSQL/SQL
 - SQLAlchemy + Alembic
-- FastAPI
-- REST API
+- FastAPI + REST API
 - JWT Authentication
 - Testing
 - Git & Github
@@ -256,3 +255,24 @@ Learn how FastAPI's OAuth2PasswordBearer works,Use the JWT to identify the curre
 
 ### Module 6 — Authorization                                                [17-07-26 -- 17-07-26]
 Ownership checks (current_user.id == post.user_id),Protect PUT /posts/{id},Protect DELETE /posts/{id},RBAC (Admin vs User),Permission patterns used in production
+
+
+__________________________________________________________________________________________________________________________________
+
+
+## Phase 6 —  Testing                                                       [17-07-26]
+Duration: 1 week
+
+Goal:
+Learn:
+* Introduction to Testing
+* Testing FastAPI
+* Database Testing
+* CRUD Testing
+* Authentication & Authorization Testing
+* Fixtures
+* Mocking
+* Advanced Testing
+
+### Module 1: Introduction to Testing                                      [18-07-26 -- 19-07-26]
+Why testing exists,Types of testing,Unit vs Integration vs End-to-End tests,Why backend developers write tests,Testing pyramid,What should and shouldn't be tested,Installing pytest,Project setup,Writing the first test,Test discovery,Assertions
