@@ -276,3 +276,6 @@ Learn:
 
 ### Module 1: Introduction to Testing                                      [18-07-26 -- 19-07-26]
 Why testing exists,Types of testing,Unit vs Integration vs End-to-End tests,Why backend developers write tests,Testing pyramid,What should and shouldn't be tested,Installing pytest,Project setup,Writing the first test,Test discovery,Assertions
+
+### Module 2 — Testing FastAPI                                             [20-07-26 -- 20-07-26]
+TestClient ,Simulating HTTP requests ,Testing GET endpoints ,Testing POST endpoints ,Testing PUT endpoints ,Testing DELETE endpoints,Understanding request and response testing
