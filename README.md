@@ -270,7 +270,6 @@ Learn:
 * Database Testing
 * CRUD Testing
 * Authentication & Authorization Testing
-* Fixtures
 * Mocking
 * Advanced Testing
 
@@ -279,3 +278,6 @@ Why testing exists,Types of testing,Unit vs Integration vs End-to-End tests,Why 
 
 ### Module 2 — Testing FastAPI                                             [20-07-26 -- 20-07-26]
 TestClient ,Simulating HTTP requests ,Testing GET endpoints ,Testing POST endpoints ,Testing PUT endpoints ,Testing DELETE endpoints,Understanding request and response testing
+
+### Module 3 — Database Testing                                            [20-07-26 -- 22-07-26]
+Why production databases should never be used for tests,Creating a separate test database,Test isolation,Transactions and rollback,Dependency overrides,Using SQLAlchemy sessions in tests,Fixtures,nested transactions,SAVEPOINTs
