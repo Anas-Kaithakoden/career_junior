@@ -270,6 +270,7 @@ Learn:
 * Database Testing
 * CRUD Testing
 * Authentication & Authorization Testing
+* Fixtures
 * Mocking
 * Advanced Testing
 
@@ -281,3 +282,6 @@ TestClient ,Simulating HTTP requests ,Testing GET endpoints ,Testing POST endpoi
 
 ### Module 3 — Database Testing                                            [20-07-26 -- 22-07-26]
 Why production databases should never be used for tests,Creating a separate test database,Test isolation,Transactions and rollback,Dependency overrides,Using SQLAlchemy sessions in tests,Fixtures,nested transactions,SAVEPOINTs
+
+### Module 4 — CRUD Testing                                                [23-07-26 -- 25-07-26]
+Testing User CRUD,Testing Post CRUD,Testing Comment CRUD,Verifying database changes,Testing invalid input,Testing missing resources
