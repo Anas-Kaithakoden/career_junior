@@ -285,3 +285,6 @@ Why production databases should never be used for tests,Creating a separate test
 
 ### Module 4 — CRUD Testing                                                [23-07-26 -- 25-07-26]
 Testing User CRUD,Testing Post CRUD,Testing Comment CRUD,Verifying database changes,Testing invalid input,Testing missing resources
+
+### Module 5 — Authentication & Authorization Testing                      [26-07-26 -- 26-07-26]
+Testing login,Testing JWT generation,Testing protected endpoints,Testing unauthorized requests,Testing forbidden requests,Ownership tests,Role-based authorization tests
