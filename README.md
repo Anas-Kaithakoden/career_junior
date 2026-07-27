@@ -288,3 +288,6 @@ Testing User CRUD,Testing Post CRUD,Testing Comment CRUD,Verifying database chan
 
 ### Module 5 — Authentication & Authorization Testing                      [26-07-26 -- 26-07-26]
 Testing login,Testing JWT generation,Testing protected endpoints,Testing unauthorized requests,Testing forbidden requests,Ownership tests,Role-based authorization tests
+
+### Module 6 — Advanced Fixtures                                           [27-07-26 -- 27-07-26]
+What fixtures are,Why fixtures exist,Reusable test setup,Database fixtures,Client fixtures,Authenticated user fixtures,Fixture scopes,conftest.py,Fixture Factories,Parametrized Fixtures
