@@ -260,7 +260,7 @@ Ownership checks (current_user.id == post.user_id),Protect PUT /posts/{id},Prote
 __________________________________________________________________________________________________________________________________
 
 
-## Phase 6 —  Testing                                                       [17-07-26]
+## Phase 6 —  Testing                                                       [17-07-26 -- 28-07-26]
 Duration: 1 week
 
 Goal:
@@ -273,12 +273,13 @@ Learn:
 * Fixtures
 * Mocking
 * Advanced Testing
+* Production Testing Best Practices 
 
 ### Module 1: Introduction to Testing                                      [18-07-26 -- 19-07-26]
 Why testing exists,Types of testing,Unit vs Integration vs End-to-End tests,Why backend developers write tests,Testing pyramid,What should and shouldn't be tested,Installing pytest,Project setup,Writing the first test,Test discovery,Assertions
 
 ### Module 2 — Testing FastAPI                                             [20-07-26 -- 20-07-26]
-TestClient ,Simulating HTTP requests ,Testing GET endpoints ,Testing POST endpoints ,Testing PUT endpoints ,Testing DELETE endpoints,Understanding request and response testing
+TestClient,Simulating HTTP requests,Testing GET endpoints,Testing POST endpoints,Testing PUT endpoints,Testing DELETE endpoints,Understanding request and response testing
 
 ### Module 3 — Database Testing                                            [20-07-26 -- 22-07-26]
 Why production databases should never be used for tests,Creating a separate test database,Test isolation,Transactions and rollback,Dependency overrides,Using SQLAlchemy sessions in tests,Fixtures,nested transactions,SAVEPOINTs
@@ -294,3 +295,9 @@ What fixtures are,Why fixtures exist,Reusable test setup,Database fixtures,Clien
 
 ### Module 7: Mocking                                                      [28-07-26 -- 28-07-26]
 Why mocking exists,When to mock,unittest.mock,Monkeypatch,Mocking external services,Mocking email sending,Mocking third-party APIs,Avoiding over-mocking,patch()
+
+### Module 8: Advanced Testing                                             [28-07-26 -- 28-07-26]
+Parameterized tests,Testing validation errors,Testing exceptions,Edge cases,Regression testing,Code coverage,Organizing large test suites, pytest --cov=app,Test markers (slow, skip, xfail),Property-based testing
+
+### Module 9 — Production Testing Best Practices                           [28-07-26 -- 28-07-26]
+Test naming,Arrange-Act-Assert pattern,Clean test code,Common beginner mistakes,Common interview questions,CI-ready test structure,Testing strategy for junior backend developers
