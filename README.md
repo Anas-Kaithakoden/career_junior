@@ -291,3 +291,6 @@ Testing login,Testing JWT generation,Testing protected endpoints,Testing unautho
 
 ### Module 6 — Advanced Fixtures                                           [27-07-26 -- 27-07-26]
 What fixtures are,Why fixtures exist,Reusable test setup,Database fixtures,Client fixtures,Authenticated user fixtures,Fixture scopes,conftest.py,Fixture Factories,Parametrized Fixtures
+
+### Module 7: Mocking                                                      [28-07-26 -- 28-07-26]
+Why mocking exists,When to mock,unittest.mock,Monkeypatch,Mocking external services,Mocking email sending,Mocking third-party APIs,Avoiding over-mocking,patch()
