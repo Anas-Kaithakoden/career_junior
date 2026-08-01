@@ -8,15 +8,15 @@ I wish to learn
 - JWT Authentication
 - Testing
 - Git & Github
-- Docker
-- AWS basics
+- Docker (S)
 - Github Actions
-- Redis
-- Javascript
-- React
+- AWS basics
+- HTML,CSS,Javascript
 - MongoDB
+- Redis
 - Pinecone
 - LangChain
+- React
 - NodeJS
 - Rust
 
@@ -301,3 +301,36 @@ Parameterized tests,Testing validation errors,Testing exceptions,Edge cases,Regr
 
 ### Module 9 — Production Testing Best Practices                           [28-07-26 -- 28-07-26]
 Test naming,Arrange-Act-Assert pattern,Clean test code,Common beginner mistakes,Common interview questions,CI-ready test structure,Testing strategy for junior backend developers
+
+
+__________________________________________________________________________________________________________________________________
+
+
+## Phase 7 —  Git & Github                                                 [01-08-26 -- 01-08-26]
+Duration: 1 day
+
+Goal: Relearn commands
+Learn: [https://learngitbranching.js.org/]
+* branch
+* merge
+* rebase
+* checkout
+* HEADS
+* reset, revert 
+* restore
+* clone
+* fetch
+* pull
+
+
+
+### Module 1: Git commands                                                [01-08-26 -- 01-08-26]
+git branch new_branch_name, git checkout branch_name, git checkout -b new_branch_name[create and use]
+git merge branch_name[merges to main], git rebase main[from current branch to main]
+git checkout HEAD^[move a commit up], git checkout HEAD~2[move 2 commits up]
+git reset HEAD^, git revert HEAD^
+git restore --staged file_name: unstage a file (move it back out of the staging area, keeping your edits),
+git restore file_name: discard your edits to a file entirely (careful, this throws the changes away!)
+
+### Module 2: GitHub commands                                             [01-08-26 -- 01-08-26]
+git clone, git fetch, git pull, git push, git pull --rebase
