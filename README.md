@@ -338,8 +338,8 @@ ________________________________________________________________________________
 
 
 
-## Phase 7 —  Docker                                                      [02-08-26]
-Duration: 1 week
+## Phase 7 —  Docker                                                      [02-08-26 -- 03-08-26]
+Duration: 2 days
 
 Goal:
 Learn:
@@ -354,7 +354,7 @@ Learn:
 * Production Dockerfile
 
 ### Module 1: Installation & Docker CLI Refresher                        [02-08-26 -- 02-08-26]
-docker pull, docker images, docker run IMAGE [docker run -d --name my-nginx -p 8080:80 nginx], docker ps -a, docker exec -it my-nginx sh, docker logs my-nginx, docker inspect my-nginx
+docker pull, docker images, docker run IMAGE [docker run -d --name my-nginx -p 8080:80 nginx], docker ps -a, docker exec -it my-nginx sh
 
 ### Module 2: Dockerizing your FastAPI Blog API                          [02-08-26 -- 02-08-26]
 Creating the Dockerfile,Choosing a base image,WORKDIR,COPY,RUN,Installing dependencies,EXPOSE,CMD,.dockerignore,
@@ -365,3 +365,30 @@ Running the container [docker run -d --name blog-api-co -p 8000:8000 blog-api]
 Named volumes [docker volume create postgres_data],Bind mounts [docker run -d --name blog-api-co -p 8000:8000 -v ${PWD}:/app blog-api],
 Persisting PostgreSQL data [docker run -d --name postgres -v postgres_data:/var/lib/postgresql/data postgres:17],
 Mounting source code,Development workflow
+ 
+### Module 4 — Docker Compose                                            [03-08-26 -- 03-08-26]
+docker-compose.yml,Services,Networks,Volumes,Environment variables,depends_on
+docker compose up -d --build  
+docker compose restart api
+docker compose exec api sh
+
+### Module 5 — Docker Networking                                         [03-08-26 -- 03-08-26]
+Bridge networks,Container communication,Service names,Port mapping,FastAPI ↔ PostgreSQL communication
+docker network ls, docker network inspect project_name_default
+
+### Module 6 — Alembic Inside Docker                                     [03-08-26 -- 03-08-26]
+Running migrations, Running management commands, docker compose exec, docker compose run, Startup order, Database readiness
+docker compose exec api alembic upgrade head
+docker compose exec api alembic revision --autogenerate -m "Add categories"
+docker compose exec api python -m pytest
+
+### Module 7 — Development Workflow                                      [03-08-26 -- 03-08-26]
+Live reload, Mounting source code, Rebuilding images, Container lifecycle, Useful Docker commands during development
+
+### Module 8 — Debugging Docker                                          [03-08-26 -- 03-08-26]
+docker logs my-nginx, docker inspect my-nginx
+docker compose build --no-cache
+
+### Module 9 — Production Dockerfile                                     [03-08-26 -- 03-08-26]
+Multi-stage builds, Image optimisation, Security best practices, Non-root users, Environment variables, Health checks, Production CMD
+
