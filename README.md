@@ -361,34 +361,76 @@ Creating the Dockerfile,Choosing a base image,WORKDIR,COPY,RUN,Installing depend
 Building the image [docker build -t blog-api .]
 Running the container [docker run -d --name blog-api-co -p 8000:8000 blog-api]
 
-### Module 3 — Docker Volumes                                            [02-08-26 -- 02-08-26]
+### Module 3: Docker Volumes                                             [02-08-26 -- 02-08-26]
 Named volumes [docker volume create postgres_data],Bind mounts [docker run -d --name blog-api-co -p 8000:8000 -v ${PWD}:/app blog-api],
 Persisting PostgreSQL data [docker run -d --name postgres -v postgres_data:/var/lib/postgresql/data postgres:17],
 Mounting source code,Development workflow
  
-### Module 4 — Docker Compose                                            [03-08-26 -- 03-08-26]
+### Module 4: Docker Compose                                             [03-08-26 -- 03-08-26]
 docker-compose.yml,Services,Networks,Volumes,Environment variables,depends_on
 docker compose up -d --build  
 docker compose restart api
 docker compose exec api sh
 
-### Module 5 — Docker Networking                                         [03-08-26 -- 03-08-26]
+### Module 5: Docker Networking                                          [03-08-26 -- 03-08-26]
 Bridge networks,Container communication,Service names,Port mapping,FastAPI ↔ PostgreSQL communication
 docker network ls, docker network inspect project_name_default
 
-### Module 6 — Alembic Inside Docker                                     [03-08-26 -- 03-08-26]
+### Module 6: Alembic Inside Docker                                      [03-08-26 -- 03-08-26]
 Running migrations, Running management commands, docker compose exec, docker compose run, Startup order, Database readiness
 docker compose exec api alembic upgrade head
 docker compose exec api alembic revision --autogenerate -m "Add categories"
 docker compose exec api python -m pytest
 
-### Module 7 — Development Workflow                                      [03-08-26 -- 03-08-26]
+### Module 7: Development Workflow                                       [03-08-26 -- 03-08-26]
 Live reload, Mounting source code, Rebuilding images, Container lifecycle, Useful Docker commands during development
 
-### Module 8 — Debugging Docker                                          [03-08-26 -- 03-08-26]
+### Module 8: Debugging Docker                                           [03-08-26 -- 03-08-26]
 docker logs my-nginx, docker inspect my-nginx
 docker compose build --no-cache
 
-### Module 9 — Production Dockerfile                                     [03-08-26 -- 03-08-26]
+### Module 9: Production Dockerfile                                      [03-08-26 -- 03-08-26]
 Multi-stage builds, Image optimisation, Security best practices, Non-root users, Environment variables, Health checks, Production CMD
 
+
+__________________________________________________________________________________________________________________________________
+
+
+
+## Phase 7 —  Github Actions (CI/CD)                                     [04-08-26 -- 05-08-26]
+Duration: 2 days
+
+Goal:
+Learn:
+* CI/CD Fundamentals
+* GitHub Actions Fundamentals
+* Running Tests Automatically
+* Secrets & Environment Variables
+* Docker Automation
+* Simple Deployment Pipeline
+* Debugging Workflows
+
+
+### Module 1: CI/CD Fundamentals                                          [04-08-26 -- 04-08-26]
+What Continuous Integration is, What Continuous Deployment is, What Continuous Delivery is, Why automation exists, Manual vs automated workflows, Typical backend development workflow
+
+### Module 2: GitHub Actions Fundamentals                                 [04-08-26 -- 04-08-26]
+Workflow files[.github/workflows/], Events (push, pull_request, workflow_dispatch), Jobs, Steps, Runners, GitHub-hosted runners, Basic YAML structure, How a workflow executes internally
+
+### Module 3: Running Tests Automatically                                 [04-08-26 -- 04-08-26]
+Setting up Python, Installing dependencies, Running Pytest, Viewing workflow logs, Failing builds, Status badges
+
+### Module 4: Secrets & Environment Variables                             [04-08-26 -- 04-08-26]
+GitHub Secrets, Environment variables, Why secrets should never be committed, Passing secrets to workflows, Common security mistakes
+
+### Module 5: Docker Automation                                           [05-08-26 -- 05-08-26]
+Building Docker images, Running Docker inside GitHub Actions, Image tagging, Docker Hub (high level), GitHub Container Registry (overview)
+
+### Module 6: Simple Deployment Pipeline                                  [05-08-26 -- 05-08-26]
+What deployment automation is, Basic deployment workflow, Deploying to an EC2 server (high level), SSH deployment (simple example), Rolling back failed deployments (concept)
+
+### Module 7: Debugging Workflows                                         [05-08-26 -- 05-08-26]
+Reading workflow logs, Common YAML mistakes, Dependency installation failures, Missing secrets, Permission errors, Typical CI failures
+
+### Module 8: Interview Preparation                                       [05-08-26 -- 05-08-26]
+Common GitHub Actions interview questions, CI/CD terminology, Explaining your own workflow, Reviewing a sample workflow, Scenario-based questions
