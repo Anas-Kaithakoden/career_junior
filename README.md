@@ -338,7 +338,7 @@ ________________________________________________________________________________
 
 
 
-## Phase 7 —  Docker                                                      [02-08-26 -- 03-08-26]
+## Phase 8 —  Docker                                                      [02-08-26 -- 03-08-26]
 Duration: 2 days
 
 Goal:
@@ -397,7 +397,7 @@ ________________________________________________________________________________
 
 
 
-## Phase 7 —  Github Actions (CI/CD)                                     [04-08-26 -- 05-08-26]
+## Phase 9 —  Github Actions (CI/CD)                                     [04-08-26 -- 05-08-26]
 Duration: 2 days
 
 Goal:
@@ -434,3 +434,25 @@ Reading workflow logs, Common YAML mistakes, Dependency installation failures, M
 
 ### Module 8: Interview Preparation                                       [05-08-26 -- 05-08-26]
 Common GitHub Actions interview questions, CI/CD terminology, Explaining your own workflow, Reviewing a sample workflow, Scenario-based questions
+
+
+__________________________________________________________________________________________________________________________________
+
+
+ 
+## Phase 10 —  AWS basics                                                  [07-08-26]
+Duration: 3 days
+
+Goal:
+Learn:
+* Understanding AWS & Cloud Foundations
+* EC2, Networking & IAM
+* Deploying Our FastAPI Blog API
+* Databases, Storage & Monitoring
+* Production Architecture & AWS Ecosystem
+* Deployment Review, Troubleshooting & Interview Preparation
+
+
+### Module 1: Understanding AWS & Cloud Foundations                        [07-08-26 -- 07-08-26]
+What Cloud Computing Actually Is, What AWS Actually Is, Global Infrastructure, Shared Responsibility Model, Core AWS Services Overview, AWS Pricing Basics, How Our Blog API Fits Into AWS
+
