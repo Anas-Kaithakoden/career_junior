@@ -456,3 +456,5 @@ Learn:
 ### Module 1: Understanding AWS & Cloud Foundations                        [07-08-26 -- 07-08-26]
 What Cloud Computing Actually Is, What AWS Actually Is, Global Infrastructure, Shared Responsibility Model, Core AWS Services Overview, AWS Pricing Basics, How Our Blog API Fits Into AWS
 
+### Module 2: EC2, IAM, Networking & Security                             [08-08-26 -- 08-08-26]
+EC2, Storage, Networking Basics, Security Groups, IAM, Principle of Least Privilege, Launching Our First EC2        
