@@ -440,7 +440,7 @@ ________________________________________________________________________________
 
 
  
-## Phase 10 —  AWS basics                                                  [07-08-26]
+## Phase 10 —  AWS basics                                                  [07-08-26 -- 09-08-26]
 Duration: 3 days
 
 Goal:
@@ -449,8 +449,8 @@ Learn:
 * EC2, Networking & IAM
 * Deploying Our FastAPI Blog API
 * Databases, Storage & Monitoring
-* Production Architecture & AWS Ecosystem
-* Deployment Review, Troubleshooting & Interview Preparation
+* DNS, HTTPS & the AWS Ecosystem
+* AWS Operations, Troubleshooting & Interview Preparation
 
 
 ### Module 1: Understanding AWS & Cloud Foundations                        [07-08-26 -- 07-08-26]
@@ -461,3 +461,12 @@ EC2, Storage, Networking Basics, Security Groups, IAM, Principle of Least Privil
 
 ### Module 3: Deploying Your FastAPI Blog API to EC2                      [08-08-26 -- 09-08-26]
 Deployed the FastAPI Blog API to an AWS EC2 Ubuntu instance using Docker Compose with PostgreSQL,Allowed port 80 in security groups, Nginx as a reverse proxy, and a GitHub Actions CI/CD pipeline that tests the code, builds and pushes the Docker image to GHCR, then securely SSHs into EC2 to pull and deploy the latest image and run database migrations; HTTPS was not configured since this is a learning project without a domain.
+
+### Module 4: RDS, S3 & CloudWatch                                       [09-08-26 -- 09-08-26]
+RDS, S3, CloudWatch -    [ Did not implement]
+
+### Module 5: DNS, HTTPS & the AWS Ecosystem                             [09-08-26 -- 09-08-26]
+Other services and Ecosystem
+
+### Module 5: AWS Operations, Troubleshooting & Interview Preparation    [09-08-26 -- 09-08-26]
+Logs, Metrics
