@@ -457,4 +457,7 @@ Learn:
 What Cloud Computing Actually Is, What AWS Actually Is, Global Infrastructure, Shared Responsibility Model, Core AWS Services Overview, AWS Pricing Basics, How Our Blog API Fits Into AWS
 
 ### Module 2: EC2, IAM, Networking & Security                             [08-08-26 -- 08-08-26]
-EC2, Storage, Networking Basics, Security Groups, IAM, Principle of Least Privilege, Launching Our First EC2        
+EC2, Storage, Networking Basics, Security Groups, IAM, Principle of Least Privilege, Launching Our First EC2      
+
+### Module 3: Deploying Your FastAPI Blog API to EC2                      [08-08-26 -- 09-08-26]
+Deployed the FastAPI Blog API to an AWS EC2 Ubuntu instance using Docker Compose with PostgreSQL,Allowed port 80 in security groups, Nginx as a reverse proxy, and a GitHub Actions CI/CD pipeline that tests the code, builds and pushes the Docker image to GHCR, then securely SSHs into EC2 to pull and deploy the latest image and run database migrations; HTTPS was not configured since this is a learning project without a domain.
