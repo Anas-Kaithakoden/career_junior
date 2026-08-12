@@ -497,3 +497,6 @@ Learn:
 
 ### Module 1: HTML Refresher & How the Browser Works                     [12-08-26 -- 12-08-26]
 DOM, Where everything fits
+
+### Module 2: CSS Refresher & How CSS Connects to HTML.                  [12-08-26 -- 12-08-26]
+Selectors, padding, margin, display, flex, grid, justify-content, align-items
