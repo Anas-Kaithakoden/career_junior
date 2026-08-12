@@ -11,12 +11,12 @@ I wish to learn
 - Docker
 - Github Actions
 - AWS basics
-- HTML,CSS,Javascript
+- HTML,CSS,Javascript,React
+- Django
 - MongoDB
 - Redis
 - Pinecone
 - LangChain
-- React
 - NodeJS
 - Rust
 
@@ -468,5 +468,32 @@ RDS, S3, CloudWatch -    [ Did not implement]
 ### Module 5: DNS, HTTPS & the AWS Ecosystem                             [09-08-26 -- 09-08-26]
 Other services and Ecosystem
 
-### Module 5: AWS Operations, Troubleshooting & Interview Preparation    [09-08-26 -- 09-08-26]
+### Module 6: AWS Operations, Troubleshooting & Interview Preparation    [09-08-26 -- 09-08-26]
 Logs, Metrics
+
+
+__________________________________________________________________________________________________________________________________
+
+
+ 
+## Phase 11 —  HTML,CSS,Javascript,React                                 [12-08-26]
+Duration: 2 weeks
+
+Goal:
+Learn:
+* HTML + Browser
+* CSS
+* JavaScript Fundamentals
+* JavaScript + DOM
+* HTTP + fetch()
+* Auth + JWT + CORS
+* Modern JavaScript + Modules
+* React Fundamentals
+* React State + Forms + Effects
+* Build Blog Frontend
+* Real Auth + Integration 
+* Reading React Code + Review
+
+
+### Module 1: HTML Refresher & How the Browser Works                     [12-08-26 -- 12-08-26]
+DOM, Where everything fits
