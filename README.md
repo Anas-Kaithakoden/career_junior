@@ -498,5 +498,11 @@ Learn:
 ### Module 1: HTML Refresher & How the Browser Works                     [12-08-26 -- 12-08-26]
 DOM, Where everything fits
 
-### Module 2: CSS Refresher & How CSS Connects to HTML.                  [12-08-26 -- 12-08-26]
+### Module 2: CSS Refresher & How CSS Connects to HTML                   [12-08-26 -- 12-08-26]
 Selectors, padding, margin, display, flex, grid, justify-content, align-items
+
+### Module 3: JavaScript Fundamentals                                    [14-08-26 -- 14-08-26]
+const, let, map(), filter(), find(), backticks not commas, spread operator, Destructuring
+
+### Module 4: JavaScript in the Browser                                 [15-08-26 -- 15-08-26]
+document, getElement, querySelector, textContent, innerHTML, events(click, submit, input...), addEventListener, preventDefault

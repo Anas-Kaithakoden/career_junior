@@ -1,54 +1,57 @@
-<main>
-    <head>
-        <h1> My blog</h1>
-    </head>
-    <body>    
-        <nav>
-            <span>My Blog</span>
-            <button>Login</button>
-        </nav>
+<!DOCTYPE html>
+<html>
 
-        <article>
-            <h2>Hello World</h2>
-            <p>Testing my page</p>
-        </article>
+<head>
+    <h1> My blog</h1>
+</head>
+
+<body>
+    <nav>
+        <span>My Blog</span>
+        <button>Login</button>
+    </nav>
+    <article>
+        <h2 id="title">Hello World</h2>
+        <p>Testing my page</p>
+    </article>
+    <div id="paragraphs">
         <p>hello2</p>
-        <p>hello3</p>
-        <p>hello4</p>
-        <p>hello5</p>
+    </div>
 
-        <button>Delete</button> 
-    </body>
+    <button id="button">Delete</button>
+    <script src="main-call.js"></script>
+</body>
 
-</main>
+
+</html>
 
 <style>
-article {
-    padding: 20px;
-    width: 300px;
-    border: 5px solid black;
-    margin-bottom: 16px;
-    margin:auto;
-}
+    article {
+        padding: 20px;
+        width: 300px;
+        border: 5px solid black;
+        margin-bottom: 16px;
+        margin: auto;
+    }
 
 
-h1 {
-    color: blueviolet;
-}
+    h1 {
+        color: blueviolet;
+    }
 
-* {
-    box-sizing: border-box;
-}
+    * {
+        box-sizing: border-box;
+    }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-p {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: px;
-}
+    p {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: px;
+    }
 </style>
