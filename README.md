@@ -504,5 +504,8 @@ Selectors, padding, margin, display, flex, grid, justify-content, align-items
 ### Module 3: JavaScript Fundamentals                                    [14-08-26 -- 14-08-26]
 const, let, map(), filter(), find(), backticks not commas, spread operator, Destructuring
 
-### Module 4: JavaScript in the Browser                                 [15-08-26 -- 15-08-26]
+### Module 4: JavaScript in the Browser                                  [15-08-26 -- 15-08-26]
 document, getElement, querySelector, textContent, innerHTML, events(click, submit, input...), addEventListener, preventDefault
+
+### Module 5: HTTP, fetch(), JSON & Frontend <-> Backend                 [16-08-26 -- 16-08-26]
+fetch, Promises, .then, async and await, loading states 

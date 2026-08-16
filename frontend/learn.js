@@ -40,3 +40,34 @@ const postsNew = [
 const getPostTitles = posts => posts.map(post => post.title);
 
 console.log(getPostTitles(postsNew));
+
+
+// Frontend <-> backend
+
+async function getUsers() {
+    const response = await fetch("http://localhost:8000/users");
+    const data = await response.json();
+    console.log(data);
+    
+}
+getUsers();
+
+const user_payload = {
+    name: "Anas new",
+    email: "anas657@gmail.com",
+    phone: "678904",
+    password: "string"
+};
+async function createUser() {
+    const response = await fetch("http://localhost:8000/users", {
+        method: "POST",
+        headers: {
+            "Content-Type" : "application/json"
+        },
+        body: JSON.stringify(user_payload)
+    });
+    const data = await response.json();
+    console.log(data);
+    
+}
+createUser();
