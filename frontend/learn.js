@@ -29,7 +29,6 @@ const activePosts = posts
 .filter(post => post.published)
 .map(post => post.title);
 
-console.log(activePosts);
 
 const postsNew = [
     { id: 1, title: "Docker" },
@@ -39,7 +38,6 @@ const postsNew = [
 
 const getPostTitles = posts => posts.map(post => post.title);
 
-console.log(getPostTitles(postsNew));
 
 
 // Frontend <-> backend
@@ -50,7 +48,7 @@ async function getUsers() {
     console.log(data);
     
 }
-getUsers();
+
 
 const user_payload = {
     name: "Anas new",
@@ -67,7 +65,53 @@ async function createUser() {
         body: JSON.stringify(user_payload)
     });
     const data = await response.json();
+    
+}
+
+
+// Authentication + JWT + CORS 
+
+const button = document.querySelector("#button");
+button.addEventListener("click", async () => 
+    {
+     await login();
+     await createPost();
+});
+
+const login_payload = {
+    email: "anas657@gmail.com",
+    password: "string"
+};
+async function login() {
+    const response = await fetch("http://localhost:8000/login", {
+        method: "POST",
+        headers: {
+            "Content-Type" : "application/json"
+        },
+        body: JSON.stringify(login_payload)
+    });
+    const data = await response.json();
+    const token = data.access_token;
+    console.log(token);
+    localStorage.setItem("access_token", token);
+}
+
+const post_payload = {
+  "title": "strirng",
+  "content": "stringneww",
+  "published": true
+}
+async function createPost() {
+    const token = localStorage.getItem("access_token");
+    const response = await fetch("http://localhost:8000/posts", {
+        method: "POST",
+        headers: {
+            "Content-Type" : "application/json",
+            "Authorization": `Bearer ${token}`
+        },
+        body: JSON.stringify(post_payload)
+    });
+    const data = await response.json();
     console.log(data);
     
 }
-createUser();

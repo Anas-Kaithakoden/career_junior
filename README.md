@@ -509,3 +509,6 @@ document, getElement, querySelector, textContent, innerHTML, events(click, submi
 
 ### Module 5: HTTP, fetch(), JSON & Frontend <-> Backend                 [16-08-26 -- 16-08-26]
 fetch, Promises, .then, async and await, loading states 
+
+### Module 6: Authentication + JWT + CORS                                [16-08-26 -- 16-08-26]
+localStorage, sessionStorage, XSS (Cross-Site Scripting), Cookie (HttpOnly,Secure,SameSite), CORS(Cross-Origin Resource Sharing), Preflight Requests, CORSMiddleware
