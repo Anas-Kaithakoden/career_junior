@@ -515,3 +515,6 @@ localStorage, sessionStorage, XSS (Cross-Site Scripting), Cookie (HttpOnly,Secur
 
 ### Module 7: Modern JavaScript & Modules                                [17-08-26 -- 17-08-26]
 export, import, named export, default export, Optional Chaining(?), Nullish Coalescing(??)
+
+### Module 8: React Fundamentals                                         [17-08-26 -- 17-08-26]
+Component, JSX, React Fragment, Props, Keys, conditional rendering, Ternary Operator
