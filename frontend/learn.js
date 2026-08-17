@@ -36,7 +36,7 @@ const postsNew = [
     { id: 3, title: "AWS" }
 ];
 
-const getPostTitles = posts => posts.map(post => post.title);
+const getPostTitle = posts => posts.map(post => post.title);
 
 
 
@@ -115,3 +115,25 @@ async function createPost() {
     console.log(data);
     
 }
+
+
+// modules
+
+export async function getPostTitles(posts){
+    const response = await fetch("http://localhost:8000/users");
+    const data = await response.json();
+    return data; // import {getPostTitles} from "./learn.js";
+}
+
+export default async function formatPostTitle(title){
+    return "Post: Docker"; // import formatPostTitle from "./learn.js";
+}
+
+const post = {
+    title: "Docker",
+    author: {
+        name: "Anas"
+    }
+};
+const author = post.author?.name ?? "Unknown Author" // if author does not exist, it will set author as undefined instead of throwing a error
+

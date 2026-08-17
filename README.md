@@ -512,3 +512,6 @@ fetch, Promises, .then, async and await, loading states
 
 ### Module 6: Authentication + JWT + CORS                                [16-08-26 -- 16-08-26]
 localStorage, sessionStorage, XSS (Cross-Site Scripting), Cookie (HttpOnly,Secure,SameSite), CORS(Cross-Origin Resource Sharing), Preflight Requests, CORSMiddleware
+
+### Module 7: Modern JavaScript & Modules                                [17-08-26 -- 17-08-26]
+export, import, named export, default export, Optional Chaining(?), Nullish Coalescing(??)
