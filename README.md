@@ -518,3 +518,6 @@ export, import, named export, default export, Optional Chaining(?), Nullish Coal
 
 ### Module 8: React Fundamentals                                         [17-08-26 -- 17-08-26]
 Component, JSX, React Fragment, Props, Keys, conditional rendering, Ternary Operator
+
+### Module 9: React State, Forms & Effects                               [18-08-26 -- 18-08-26]
+useState, The spread operator(...), controlled components(event), useEffect, Dependency Array

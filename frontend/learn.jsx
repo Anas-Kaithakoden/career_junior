@@ -70,6 +70,139 @@ function ClickButton(){
     )
 }
 
+import { useState, useEffect } from "react";
+
+function Counter(){
+    const [count, setCount] = useState(0);
+
+    function handleIncrement() {
+        setCount(prevCount => prevCount + 1);
+    }
+
+    return (
+        <div>
+            <p>Count: {count}</p>
+            <button onClick={handleIncrement}>Increment</button>
+        </div>
+    );
+}
+
+function NameForm(){
+  const [name, setName] = useState("");
+
+  return (
+    <div>
+      <label>
+        Name:
+        <input 
+          value={name}
+          onChange={event => setName(event.target.value)}
+        />
+      </label>
+
+      <p>Hello, {name}</p>
+    </div>
+  );
+}
+
+function LoginForm(){
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+
+    function handleSubmit(event) {
+        event.preventDefault();
+
+        console.log("Email:", email);
+        console.log("Password:", password);
+
+        setLoading(true);
+
+        setTimeout(() => {
+            setLoading(false);
+        }, 2000);
+    }
+
+  return (
+        <form onSubmit={handleSubmit}>
+            <div>
+                <label>
+                    Email:
+                    <input
+                        type="email"
+                        value={email}
+                        onChange={event => setEmail(event.target.value)}
+                    />
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    Password:
+                    <input
+                        type="password"
+                        value={password}
+                        onChange={event => setPassword(event.target.value)}
+                    />
+                </label>
+            </div>
+
+            <button type="submit" disabled={loading}>
+                {loading ? "Logging in..." : "Login"}
+            </button>
+
+            {error && <p>{error}</p>}
+        </form>
+    );
+}
+
+function PostList() {
+    const [posts, setPosts] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+
+    useEffect(() => {
+        async function fetchPosts() {
+            try {
+                const response = await fetch("http://localhost:8000/posts");
+
+                if (!response.ok) {
+                    throw new Error("Failed to fetch posts");
+                }
+
+                const data = await response.json();
+                setPosts(data);
+            } catch (error) {
+                setError(error.message);
+            } finally {
+                setLoading(false);
+            }
+        }
+
+        fetchPosts();
+    }, []);
+
+    if (loading) {
+        return <p>Loading...</p>;
+    }
+
+    if (error) {
+        return <p>{error}</p>;
+    }
+
+    return (
+        <section>
+            {posts.map(post => (
+                <PostCard
+                    key={post.id}
+                    post={post}
+                />
+            ))}
+        </section>
+    );
+}
+
 function App() {
     return (
         <>  
@@ -78,8 +211,13 @@ function App() {
             <Intro />
             <PostList posts={posts} />
             <ClickButton />
+            <Counter/>
+            <NameForm/>
+            <LoginForm/>
         </>
     );
 }
 
 export default App;
+
+
